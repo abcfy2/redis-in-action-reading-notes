@@ -20,7 +20,7 @@
    * [Shopping carts in Redis](anatomy_of_a_redis_web_application/shopping_carts_in_redis.md)
    * [Web page caching](anatomy_of_a_redis_web_application/web_page_caching.md)
    * [Database row caching](anatomy_of_a_redis_web_application/database_row_caching.md)
-   * [Web page analytics](anatomy_of_a_redis_web_application/web_page_analytics)
+   * [Web page analytics](anatomy_of_a_redis_web_application/web_page_analytics.md)
    * [Summary](anatomy_of_a_redis_web_application/summary.md)
 * [Commands in Redis](commands_in_redis/README.md)
    * [Strings](commands_in_redis/strings.md)
