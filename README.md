@@ -9,3 +9,5 @@
 其中范例代码使用``python``编写，对熟悉python的用户很容易上手。
 
 每章记录一下几个要点。
+
+源码托管在github: https://github.com/abcfy2/redis-in-action-reading-notes

@@ -38,3 +38,7 @@ Redis还额外提供字符串的操作方法。
 
 **GETRANGE AND SUBSTR**: 在过去，``GETRANGE``被命名为``SUBSTR``, Python客户端依旧沿用``substr()``方法获取字符串的子串。当Redis版本高于2.6时，应该使用``getrange()``方法，低于2.6版本使用``substr()``方法。
 
+当使用``SETRANGE``和``SETBIT``写入strings时，如果``STRING``原先不够长，Redis将会在更新数据之自动以null填充``STRING``，但是当使用``GETBIT``读取比特数时，任何超出``STRING``结尾的部分以``0``处理。下面将看到这一类的用法。
+
+![](images/3.1-2.png)
+![](images/3.1-3.png)
