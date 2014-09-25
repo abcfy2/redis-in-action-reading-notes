@@ -27,4 +27,6 @@
    * [Lists](commands_in_redis/lists.md)
    * [Sets](commands_in_redis/sets.md)
    * [Hashes](commands_in_redis/hashes.md)
+   * [Sorted sets](commands_in_redis/sorted_sets.md)
+   * [Publish/subcribe](commands_in_redis/publishsubcribe.md)
 
