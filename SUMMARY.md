@@ -29,4 +29,9 @@
    * [Hashes](commands_in_redis/hashes.md)
    * [Sorted sets](commands_in_redis/sorted_sets.md)
    * [Publish/subcribe](commands_in_redis/publishsubcribe.md)
+   * [Other commands](commands_in_redis/other_commands.md)
+       * [Sorting](commands_in_redis/sorting.md)
+       * [Redis基本事务](commands_in_redis/basic_redis_transactions.md)
+       * [Expiring keys](commands_in_redis/expiring_keys.md)
+       * [Summary](commands_in_redis/summary.md)
 
