@@ -34,4 +34,7 @@
        * [Redis基本事务](commands_in_redis/basic_redis_transactions.md)
        * [Expiring keys](commands_in_redis/expiring_keys.md)
        * [Summary](commands_in_redis/summary.md)
+* [Keeping data safe and ensuring performance](keeping_data_safe_and_ensuring_performance/README.md)
+   * [Persistence options](keeping_data_safe_and_ensuring_performance/persistence_options.md)
+       * [Persisting to disk with snapshots](keeping_data_safe_and_ensuring_performance/persisting_to_disk_with_snapshots.md)
 
