@@ -37,4 +37,5 @@
 * [Keeping data safe and ensuring performance](keeping_data_safe_and_ensuring_performance/README.md)
    * [Persistence options](keeping_data_safe_and_ensuring_performance/persistence_options.md)
        * [Persisting to disk with snapshots](keeping_data_safe_and_ensuring_performance/persisting_to_disk_with_snapshots.md)
+       * [Append-only file persistence](keeping_data_safe_and_ensuring_performance/append-only_file_persistence.md)
 
