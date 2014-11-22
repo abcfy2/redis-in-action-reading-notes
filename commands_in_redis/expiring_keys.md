@@ -5,7 +5,7 @@
 ## Redis中处理过期的命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | PERSIST | PERSIST key-name —— 从一个key中移除过期数据 |
 | TTL | TTL key-name —— 返回一个key的到期剩余时间 |
 | EXPIRE | EXPIRE key-name seconds —— 以秒为单位设置key的过期时间 |

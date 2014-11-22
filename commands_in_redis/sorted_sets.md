@@ -4,7 +4,7 @@
 ## 一些``ZSET``常用命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | ZADD | ZADD key-name score member [score member ...] —— 将members和scores增加到``ZSET`` |
 | ZRED | ZREM key-name member [member ...] —— 从ZSET中移除指定members，返回移除的members数量 |
 | ZCARD | ZCARD key-name —— 返回ZSET中的members数量 |
@@ -20,7 +20,7 @@
 ## 其他有用的命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | ZREVRANK | ZREVRANK key-name member —— 返回逆序排序的member的序号 |
 | ZREVANGE | ZREVRANGE key-name start stop [WITHSCORES] —— 获取给定范围的members，以逆序排列 |
 | ZRANGEBYSCORE | ZRANGEBYSCORE key min max [WITHSCORES] [LIMIT offset count] —— 获取min和max之间的members |

@@ -9,7 +9,7 @@
 ## HASH类型可使用的命令
 
 | 命令 | 作用 |
-| -- | -- |
+| ---- | ---- |
 | HSET | 存储键值到hash |
 | HGET | 获取指hash key的值 |
 | HGETALL | 获取整个hash |

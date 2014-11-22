@@ -9,7 +9,7 @@
 ## SET类型可使用的命令
 
 | 命令 | 作用 |
-| -- | -- |
+| ---- | ---- |
 | SADD | 增加item到set |
 | SMEMBERS | 返回整个set的items |
 | SISMEMBER | 检查一个item是否在set中 |

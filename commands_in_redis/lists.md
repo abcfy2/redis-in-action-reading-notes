@@ -5,7 +5,7 @@
 ## 一些``LIST``常用命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | RPUSH | RPUSH key-name value [value ...] —— 从list右侧压入数据 |
 | LPUSH | LPUSH key-name value [value ...] —— 从list左侧压入数据 |
 | RPOP | RPOP key-name —— 删除并返回list最右侧的项 |
@@ -19,7 +19,7 @@
 ## 一些``LIST``阻塞式弹出和在``LISTs``之间移动itmes的命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | BLPOP | BLPOP key-name [key-name] timeout —— 弹出首个非空``LIST``的最左侧的item，否则等待超时时间(单位: s) |
 | BRPOP | BRPOP key-name [key-name ...] timeout —— 弹出首个非空``LIST``的最右侧的item，否则等待超时时间(单位: s) |
 | RPOPLPUSH | RPOPLPUSH source-key dest-key —— 从source弹出最右侧的item并``LPUSHes``到destination,同时返回item给用户 |

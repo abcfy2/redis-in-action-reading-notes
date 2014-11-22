@@ -5,7 +5,7 @@ Redis中的``HASHes``存储一组键值对在一个高级别的key中。在功�
 ## HASHes中增删items的操作
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | HMGET | HMGET key-name key [key ...] —— 获取HASH中的value段 |
 | HMSET | HMSET key-name key value [key value ...] —— 设置HASH中的value段 |
 | HDEL | HDEL key-name key [key ...] —— 删除HASH中的键值对，返回找到并删除的键值数量 |
@@ -16,7 +16,7 @@ Redis中的``HASHes``存储一组键值对在一个高级别的key中。在功�
 ## 更多HASHes中的批量操作和STRING-like调用
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | HEXISTS | HEXISTS key-name key —— 返回给定key是否存在于HASH |
 | HKEYS | HKEYS key-name —— 获取HASH中的keys |
 | HVALS | HVALS key-name —— 获取HASH中的values |

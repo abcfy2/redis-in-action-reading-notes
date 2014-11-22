@@ -13,7 +13,7 @@
 ## Redis中递增递减操作
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | INCR | INCR key-name —— 使key存储的值加1 |
 | DECR | DECR key-name —— 使key存储的值减1 |
 | INCRBY | INCRBY key-name amount —— 使key存储的值增加给定的整数 |
@@ -27,7 +27,7 @@ Redis还额外提供字符串的操作方法。
 ## Redis可用的字符串操作命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | APPEND | APPEND key-name value —— 使key存储的字符串追加给定的值 |
 | GETRANGE | GETRANGE key-name start end —— 获取从start到end的所包含的子字符串 |
 | SETRANGE | SETRANGE key-name offset value —— 使子字符串从给定位置开始覆盖为给定值 |

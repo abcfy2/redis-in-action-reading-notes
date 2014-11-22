@@ -3,7 +3,7 @@
 ## 一些``SET``常用命令
 
 | 命令 | 用法示例描述 |
-| -- | -- |
+| ---- | ------------ |
 | SADD | SADD key-name item [item ...] —— 将items加入set并返回增加的items的数量 |
 | SREM | SREM key-name item [item ...] —— 删除items并返回被删除的items的数量 |
 | SISMEMBER | SISMEMBER key-name item —— 返回一个item是否在``SET``中 |
@@ -19,7 +19,7 @@ Python示例：
 ## 连接多``SETs``的操作
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | SDIFF | SDIFF key-name [key-name ...] —— 返回第一个``SET``中不在其他``SETs``的items(数学中的差集运算) |
 | SDIFFSTORE | SDIFFSTORE dest-key key-name [key-name ...] —— 将第一个SET中不在其他SETs中的items存储在dest-key中(数学中的差集运算) |
 | SINTER | SINTER key-name [key-name ...] —— 返回在所有SETs中都存在的items(数学中的交集运算) |

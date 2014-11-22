@@ -7,7 +7,7 @@ publish/subcribe(发布/订阅)通常也被称为pub/sub，特征是publishers�
 ## Redis中pub/sub处理命令
 
 | 命令 | 用法示例和描述 |
-| -- | -- |
+| ---- | -------------- |
 | SUBSCRIBE | SUBSCRIBE channel [channel ...] —— 订阅指定信道 |
 | UNSUBSCRIBE | UNSUBSCRIBE [channel [channel ...]] —— 取消订阅指定信道，如果未指定channel则取消订阅所有信道 |
 | PUBLISH | PUBLISH channel message —— 发布消息到指定信道 |
