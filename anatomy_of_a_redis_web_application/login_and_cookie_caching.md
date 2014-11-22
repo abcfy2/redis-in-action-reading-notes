@@ -9,7 +9,7 @@
 ## signed cookies和token cookies优缺点对比
 
 | Cookie type | Pros | Cons |
-| -- | -- | -- |
+| --- | --- | --- |
 | Signed cookie | 一切需要验证信息都在cookie。额外信息可以很容易附加进来 | 正确处理签名很难。容易忘记签名或认证数据，易引发安全漏洞 |
 | Token cookie | 加入信息很容易。容量小，所以手机和速度慢的客户端可以快速发送数据 | 服务端需存储更多信息。如果使用关系型数据，cookie加载/存储开销很大 |
 
