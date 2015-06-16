@@ -38,5 +38,7 @@
    * [Persistence options](keeping_data_safe_and_ensuring_performance/persistence_options.md)
        * [Persisting to disk with snapshots](keeping_data_safe_and_ensuring_performance/persisting_to_disk_with_snapshots.md)
        * [Append-only file persistence](keeping_data_safe_and_ensuring_performance/append-only_file_persistence.md)
-       * 
+       * [重写/压缩append-only文件](keeping_data_safe_and_ensuring_performance/append-only.md)
+   * [复制集](keeping_data_safe_and_ensuring_performance/replication.md)
+       * [配置Redis复制集](keeping_data_safe_and_ensuring_performance/configuring_redis_for_replication.md)
 
