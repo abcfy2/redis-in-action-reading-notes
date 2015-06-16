@@ -41,4 +41,5 @@
        * [重写/压缩append-only文件](keeping_data_safe_and_ensuring_performance/append-only.md)
    * [复制集](keeping_data_safe_and_ensuring_performance/replication.md)
        * [配置Redis复制集](keeping_data_safe_and_ensuring_performance/configuring_redis_for_replication.md)
+       * [Redis复制集启动过程](keeping_data_safe_and_ensuring_performance/redis_replication_startup_process.md)
 
